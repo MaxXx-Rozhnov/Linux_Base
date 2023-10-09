@@ -86,6 +86,30 @@ hostnamectl данные хоста,версия линукс,дистрибут
 
 timedatectl или date посмотреть дату и время на сервере
 
+## Lesson 6
+понятие IP
+
+192/10/172 внутрилокальные ip адреса
+
+роутер будет иметь белый ip адрес 
+
+/1 маска сети
+
+:80 порт
+
+systemctl stop firewalld 
+
+systemctl disable firewalld отключить совсем
+
+systemctl start sshd 
+
+systemctl enable sshd включение после загрузки сервера удаленно через удаленное соединение
+
+vim /etc/sysconfig/network-scripts/ifcfg-enp0s3
+
+ping отсылает пакеты на адрес
+
+systemctl status sshd проверить работу ssh
 
 
 
